@@ -64,6 +64,8 @@ $$
 -->
 
 ## Results
+![alt text](./img/init_point_kmeanspp.png "Cost function (WCSS) of elbow method")
+
 ![alt text](./img/elbow_method.png "Cost function (WCSS) of elbow method")
 
 ![alt text](./img/elbow_method_clustering.png "K-means clustering along the number of clusters")
