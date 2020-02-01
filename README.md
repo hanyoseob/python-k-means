@@ -64,13 +64,26 @@ $$
 -->
 
 ## Results
-![alt text](./img/init_point_kmeanspp.png "Cost function (WCSS) of elbow method")
 
+### Elbow method for choosing optimal number of clusters (optimal number=3)
 ![alt text](./img/elbow_method.png "Cost function (WCSS) of elbow method")
 
 ![alt text](./img/elbow_method_clustering.png "K-means clustering along the number of clusters")
 
+---
+
+### K-means++ for choosing initial centroid point of k-clusters (k=3)
+![alt text](./img/init_point_kmeanspp.png "Choose initial centroid point using Kmeans++ algorithm")
+
+---
+
+### K-means for N-dimensional feature dataset
+
 ![alt text](./img/Ndim_kmeans.png "Comparision between Sci-kit pakcage and scrath script")
+
+---
+
+### K-means for image segmentation
 
 ![alt text](./img/img_kmeans_2clusters.png "K-means clustering when k = 2")
 ![alt text](./img/img_kmeans_3clusters.png "K-means clustering when k = 3")
