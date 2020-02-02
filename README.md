@@ -22,8 +22,8 @@ In [data mining](https://en.wikipedia.org/wiki/Data_mining), **k-means++** is **
 
 ## References
 
-[1] [k-means clustering, wikipidea](https://en.wikipedia.org/wiki/K-means_clustering)\
-[2] [k-means++, wikipidea](https://en.wikipedia.org/wiki/K-means++)\
+[1] [k-means clustering, wikipedia](https://en.wikipedia.org/wiki/K-means_clustering)\
+[2] [k-means++, wikipedia](https://en.wikipedia.org/wiki/K-means++)\
 [3] [K means clustering - Introduction, GeeksforGeeks](https://www.geeksforgeeks.org/k-means-clustering-introduction/)\
 [4] [ML | K-means++ Algorithm, GeeksforGeeks](https://www.geeksforgeeks.org/ml-k-means-algorithm/)\
 [5] [Implementing K-means Clustering from Scratch - in Python](https://mmuratarat.github.io/2019-07-23/kmeans_from_scratch)\
