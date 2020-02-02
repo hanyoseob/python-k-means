@@ -74,6 +74,7 @@ Fig. 1 shows the sequence for how to select the three initial centroid points. F
 Fig. 2 shows the concept animation of K-means clustering algorithm [[8]](https://towardsdatascience.com/introduction-to-image-segmentation-with-k-means-clustering-83fd0a9e2fc3). When an initial points is selected by 4 leftmost points, the figure shows the how the centroid points are updated during iterations.
 
 ![alt text](https://miro.medium.com/max/1600/1*ZmktlQtiZSp6p03op3EvyA.gif "Animation of K-means algorithm")
+
 **Fig. 2 Visual representation of K-means clustering: Starting with 4 leftmost points.**
 
 ---
