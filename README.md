@@ -12,7 +12,7 @@
 
 ### Title
 
-[k-menas++](https://en.wikipedia.org/wiki/K-means%2B%2B)
+[k-menas++](https://en.wikipedia.org/wiki/K-means++)
 
 ### Abstract
 
@@ -23,7 +23,7 @@ In [data mining](https://en.wikipedia.org/wiki/Data_mining), **k-means++** is **
 ## References
 
 [1] [k-means clustering, wikipidea](https://en.wikipedia.org/wiki/K-means_clustering)\
-[2] [k-means++, wikipidea](https://en.wikipedia.org/wiki/K-means%2B%2B)\
+[2] [k-means++, wikipidea](https://en.wikipedia.org/wiki/K-means++)\
 [3] [K means clustering - Introduction, GeeksforGeeks](https://www.geeksforgeeks.org/k-means-clustering-introduction/)\
 [4] [ML | K-means++ Algorithm, GeeksforGeeks](https://www.geeksforgeeks.org/ml-k-means-algorithm/)\
 [5] [Implementing K-means Clustering from Scratch - in Python](https://mmuratarat.github.io/2019-07-23/kmeans_from_scratch)\
@@ -52,7 +52,7 @@ where $x$ and $n$ denote data and the number of data, respectively, and $c$ and 
 
 ---
 
-Technically, an initial point $c$ of the centroid for each clusters is chosen randomly. Since the dataset $x$ is commonly not convex, the centroid point $c$ does not converge to the global solution. To improve stability of the convergence, [k-means++ initialization algorithm](https://en.wikipedia.org/wiki/K-means%2B%2B) was developed to choose well-condition initial point.
+Technically, an initial point $c$ of the centroid for each clusters is chosen randomly. Since the dataset $x$ is commonly not convex, the centroid point $c$ does not converge to the global solution. To improve stability of the convergence, [k-means++ initialization algorithm](https://en.wikipedia.org/wiki/K-means++) was developed to choose well-condition initial point.
 
 The k-means++ initialization algorithm is as follows [[4]](https://www.geeksforgeeks.org/ml-k-means-algorithm/):
 
@@ -64,7 +64,7 @@ The k-means++ initialization algorithm is as follows [[4]](https://www.geeksforg
 
 4. Repeat steps 2 and 3 until k centroids have been sampled.
 
-Fig. 1 shows the sequence for how to select the three initial centroid points. First centroid is chosen randomly (see Fig. 1(1,1)), and second centroid is point having maximum distance from the first centroid (see Fig. 1(1,2)). Last centroid is determined by the point with the maximum distance from the nearest centroid (see Fig. 1(1,3)). And clustering result using initial centroid calculated by K-means++ is shown in Fig. 1(1, 4)
+Fig. 1 shows the sequence for how to select the three initial centroid points. First centroid is chosen randomly (see Fig. 1(1,1)), and second centroid is point having maximum distance from the first centroid (see Fig. 1(1,2)). Last centroid is determined by the point with the maximum distance from the nearest centroid (see Fig. 1(1,3)). And clustering result using initial centroid calculated by K-means++ is shown in Fig. 1(1, 4):
 
     $ demo_kmeanspp_method.py
 
@@ -117,6 +117,6 @@ Fig. 4 shows the clustering results according to the number of clusters 1, 3, 5,
 
 ![alt text](./img/img_kmeans_4clusters.png "K-means clustering when k = 4")(c) k=4
 
-**Fig. 6 K-means for image segmentation ((a) k=2, (b) k=3, and (c) k=4)**
+**Fig. 6 K-means for image segmentation ((a) k=2, (b) k=3, and (c) k=4).**
 
 ---
