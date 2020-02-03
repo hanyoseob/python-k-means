@@ -90,7 +90,7 @@ $$
 ![alt text](./img/elbow_method.png "Cost function (WCSS) of elbow method")
 **Fig. 3 WCSS curves when the optimal number of clusters is 3.**
 
-Fig. 4 shows the clustering results according to the number of clusters 1, 3, 5, 7, and 11. When the cluster is single (see Fig.4(1, 1)), three cloud point groups are defined as a single class (purple) and the cluster has high WCSS. However, WCSS is minimized if the clusters are three as shown in Fig. 3, and Fig. 4(1, 2) shows the clusters clearly classify three cloud point groups. If there are move than three clusters, the WCSS curve in Fig. 3 is almost fixed. Therefore, we can determine the optimal number of clusters to three clusters.
+Fig. 4 shows the clustering results according to the number of clusters 1, 3, 5, 7, and 11. When the cluster is single (see Fig.4(1, 1)), three cloud point groups are defined as a single class (purple) and the cluster has high WCSS (see Fig. 3). However, WCSS is minimized if the clusters are three as shown in Fig. 3, and Fig. 4(1, 2) shows the clusters clearly classify three cloud point groups. If there are move than three clusters, the WCSS curve in Fig. 3 is almost fixed. Therefore, we can determine the optimal number of clusters to three clusters.
 
     $ demo_elbow_method.py
 
