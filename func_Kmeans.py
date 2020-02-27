@@ -54,7 +54,7 @@ def func_Kmeans(X, ncls, init='k-means++', max_iter=300, bfig=False):
             for icls_pre in range(icls):
                 distances[icls_pre, :] = linalg.norm(X - centroids[icls_pre, :], axis=1)
 
-            idx_min = np.asarray(range(0, icls, icls * ndata)) + np.argmin(distances, axis=0)
+            idx_min = np.argmin(distances, axis=0)
 
             for imin in range(len(idx_min)):
                 dist_min[imin] = distances[idx_min[imin], imin]
